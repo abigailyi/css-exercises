@@ -1,0 +1,16 @@
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Combining a type and class selector for the descendant combinator */
+div .text {
+  font-weight: bold;
+}
+
+/* Practicing chaining selectors with descendant combinator */
+.container .text#special {
+  color: blue;
+}
